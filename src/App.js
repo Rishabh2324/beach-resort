@@ -4,7 +4,7 @@ import Rooms from "./pages/Rooms";
 import SingleRoom from "./pages/SingleRoom";
 import ErrorPage from "./pages/ErrorPage";
 import './App.css';
-import { Switch, Route, Link } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Navbar from "./pages/Components/Navbar";
 function App() {
   return (
