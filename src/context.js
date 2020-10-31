@@ -18,6 +18,8 @@ export default class RoomProvider extends Component {
     breakfast: false,
     pets: false
   };
+  
+  
   //getData
   getData = async () => {
     try {
@@ -42,7 +44,7 @@ export default class RoomProvider extends Component {
       console.log(error);
     }
   };
-  componentDidMount() {
+  componentDidMount() {    
     this.getData();
   }
 
